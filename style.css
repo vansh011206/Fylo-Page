@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    height: 60px;
+    font-family: "Raleway", serif;
+    font-size: 13px;
+    padding: 40px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+}
+
+.navigations {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-weight: 400;
+}
+
+.box1 {
+    width: 100%;
+    font-family: "Raleway", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 200px;
+}
+
+.illustration1 img {
+    width: 500px;
+}
+
+.written p {
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.written {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.input1 {
+    height: 30px;
+    width: 270px;
+}
+
+.input button {
+    width: 140px;
+    height: 35px;
+    background-color: hsl(224, 93%, 58%);
+    color: aliceblue;
+    border: 0px solid black;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(224, 87%, 63%);
+}
+
+li {
+    list-style: none;
+}
+
+.curve .desktop {
+    width: 100%;
+}
+
+.curve .mobile {
+    display: none;
+}
+
+.box2 {
+    background-color: hsl(240, 75%, 98%);
+    display: flex;
+    font-family: "Raleway", serif;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 200px;
+    padding: 50px;
+    margin: 0;
+}
+
+.illustration2 img {
+    width: 500px;
+}
+
+.left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.written2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.left p {
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+a {
+    color: hsl(170, 45%, 43%);
+    font-size: 15px;
+}
+
+.quote {
+    background-color: hsl(0, 0%, 100%);
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.quote p {
+    font-size: 10px;
+    font-family: "Open Sans", serif;
+
+}
+
+.id {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.photo img {
+    width: 28px;
+    border-radius: 50%;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail .name {
+    font-weight: 600;
+    font-size: 9px;
+}
+
+.detail .post {
+    font-size: 8px;
+}
+
+.box3 {
+    background-color: hsl(238, 22%, 44%);
+    color: hsl(240, 75%, 98%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 200px;
+    padding: 50px;
+}
+
+.text {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+
+.boldtext {
+    font-weight: 500;
+    font-family: "Raleway", serif;
+
+}
+
+.text p {
+    font-family: "Open Sans", serif;
+    font-size: 15px;
+}
+
+.take {
+    width: 500px;
+    flex-direction: column;
+    display: flex;
+    gap: 8px;
+}
+
+.take input {
+    width: 400px;
+    height: 30px;
+    text-align: center;
+}
+
+.take button {
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    color: hsl(240, 75%, 98%);
+    background-color: hsl(224, 93%, 58%);
+    border: 0px solid black;
+}
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 40px;
+}
+.footer-logo{
+    padding-left: 50px;
+}
+.first,
+.second,
+.third {
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans", serif;
+    font-size: 15px;
+    gap: 7px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width:600px) {
+    header {
+        padding: 0;
+        margin-bottom: 50px;
+        padding-top: 60px;
+    }
+
+    nav {
+        justify-content: space-evenly;
+    }
+
+    .box1 {
+        flex-direction: column-reverse;
+        padding: 0;
+        gap: 50px;
+    }
+
+    .box2 {
+        flex-direction: column-reverse;
+        padding: 0;
+        gap: 50px;
+    }
+
+    .box3 {
+        flex-direction: column;
+        padding: 0;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .illustration1 {
+        width: 100%;
+    }
+
+    .illustration2 {
+        width: 100%;
+    }
+
+    .written {
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        text-align: center;
+    }
+
+    .input {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .input button {
+        width: 100%;
+    }
+
+    .curve .desktop {
+        display: none;
+    }
+
+    .curve .mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .left {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .written2 {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .written2 h1 {
+        font-size: 15px;
+    }
+
+    .quote {
+        margin-bottom: 50px;
+    }
+
+    .text {
+        width: 90%;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .take {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .text h1 {
+        font-size: 18px;
+    }
+
+    .take .input2 {
+        width: 70%;
+    }
+
+    .take button {
+        width: 70%;
+    }
+
+    footer {
+        margin-top: ;
+        padding-left: 40px;
+        padding-right: 0;
+        padding-bottom: 0;
+        padding-top: 70px;
+        gap: 40px;
+    }
+
+    .content {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
