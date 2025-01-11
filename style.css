@@ -230,7 +230,7 @@ a {
     background-color: hsl(224, 93%, 58%);
     border: 0px solid black;
 }
-.facebook img{
+.fourth img{
     width: 100px;
 }
 footer {
@@ -388,13 +388,5 @@ footer {
         gap: 40px;
         padding: 0;
     }
-    .facebook{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-    .facebook img{
-        width: 30%;
-    }
-}z
+   
+}
