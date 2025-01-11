@@ -230,7 +230,9 @@ a {
     background-color: hsl(224, 93%, 58%);
     border: 0px solid black;
 }
-
+.fourth img{
+    width: 100px;
+}
 footer {
     background-color: hsl(243, 87%, 12%);
     color: aliceblue;
@@ -254,7 +256,9 @@ footer {
 
 .content {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    gap: 250px;
+    padding-left: 50px;
 }
 
 @media (max-width:600px) {
@@ -382,5 +386,15 @@ footer {
     .content {
         flex-direction: column;
         gap: 40px;
+        padding: 0;
+    }
+    .facebook{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .facebook img{
+        width: 30%;
     }
 }
